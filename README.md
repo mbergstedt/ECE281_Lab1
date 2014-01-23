@@ -9,3 +9,5 @@ ECE281_Lab1
 
 ##Analysis
 My simulation matched what I had down in my truth table
+####Functionality Check for 3-bit
+I tested all of the input values and it resulted in the same results from my truth table and my simulation

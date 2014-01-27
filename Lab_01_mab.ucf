@@ -1,9 +1,19 @@
 # Input/Output Location Assignments
 
-NET "A" LOC = "K18"; # assign input A to switch K18
-NET "B" LOC = "H18"; # assign B to H18
-NET "C" LOC = "G18"; # assign C to G18
+NET "input(7)" LOC = "R17"; # assign MSB input to switch R17
+NET "input(6)" LOC = "N17";
+NET "input(5)" LOC = "L13";
+NET "input(4)" LOC = "L14";
+NET "input(3)" LOC = "K17";
+NET "input(2)" LOC = "K18";
+NET "input(1)" LOC = "H18";
+NET "input(0)" LOC = "G18";
 
-NET "X" LOC = "K15"; # assign output X to LED K15
-NET "Y" LOC = "J15"; # assign Y to J15
-NET "Z" LOC = "J14"; # assign Z to J14
+NET "output(7)" LOC = "R4"; # assign MSB output to LED R4
+NET "output(6)" LOC = "F4";
+NET "output(5)" LOC = "P15";
+NET "output(4)" LOC = "E17";
+NET "output(3)" LOC = "K14";
+NET "output(2)" LOC = "K15";
+NET "output(1)" LOC = "J15";
+NET "output(0)" LOC = "J14";

@@ -11,3 +11,11 @@ ECE281_Lab1
 My simulation matched what I had down in my truth table
 ####Functionality Check for 3-bit
 I tested all of the input values and it resulted in the same results from my truth table and my simulation
+checked by Capt Silva
+####Functionality Check for 8-bit
+checked by Capt Silva and found to be correct
+####Explanation
+walk through what I did
+
+#####Documentation
+Did a google search on two's complement converter vhdl and saw that I needed to use std_logic_vector(unsigned(not(input))+1)
